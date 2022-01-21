@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipe data </title>
+</head>
+<body>
+    <h2>Belajar tipedata javascript</h2>
+
+    <h4>Biodata</h4>
+    nama : <span id="nama"></span> <br>
+    <hr>
+    usia : <span id="usia"></span> <br>
+
+    <script>
+        //disini untuk tipe data ada tipe data string, array , object, boolean
+        //contoh tipedata integer atau number javascript
+        // var angka = 20;
+        // document.write("Umur dia adalah " + angka);
+        var umur = 22;
+        document.getElementById("usia").innerHTML = umur;
+
+        // //contoh tipedata string pada javascript
+        // var nama = "Khalid ibrahim";
+        // document.write("Nama : " + nama);
+        var nama = "Khalid Ibrahim";
+        document.getElementById('nama').innerHTML = nama;
+
+        //TIPEDATA DENGAN OBJECT    
+        var mahasiswa = {
+            nama : 'Khalid ibrahim',
+            jurusan : 'Sistem informasi'
+        }
+
+        document.write(mahasiswa.nama + " Jurusannya adalah " + mahasiswa.jurusan);
+        document.write ("<br>");
+
+        var usia = 22 < 23
+
+        if(usia == true){
+            document.write("23 lebih besar dari 22" + usia)
+        }else{
+            document.write("23 lebih kecil dari 22 " + usia);
+        }
+    </script>
+</body>
+</html>
