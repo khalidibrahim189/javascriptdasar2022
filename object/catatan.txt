@@ -1,0 +1,5 @@
+Object ada 4 yaitu 
+1. Object literal 
+2. function declaration
+3. cunstructor function (keyword new)
+4. Object.create()
